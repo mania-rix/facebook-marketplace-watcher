@@ -1,0 +1,13 @@
+# Core runtime
+playwright>=1.44         # browser automation (run `playwright install chromium`)
+beautifulsoup4>=4.12     # HTML parsing
+requests>=2.31           # optional HTTP calls (future roadmap)
+
+# Secrets / config
+python-dotenv>=1.0       # load FB creds + SMTP keys from .env
+
+# Dev / CI (safe to omit in prod)
+pytest>=8.3
+pytest-cov>=5.0
+black>=24.4
+isort>=5.13
